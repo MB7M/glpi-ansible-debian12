@@ -54,6 +54,15 @@ Les playbooks suivants sont exécutés depuis SRV-ANSIBLE pour configurer automa
 
 ```
 glpi-ansible-debian12/
+├── captures/
+│   └── schema-ansible-glpi.png
+│
+├── docs/
+│   ├── 01_install_ansible.md
+│   ├── 02_config_mariadb.md
+│   ├── 03_deploiement_glpi_cli.md
+│   └── 04_certificat_ssl.md
+│
 ├── inventory/
 │   └── hosts
 │
@@ -64,16 +73,9 @@ glpi-ansible-debian12/
 │   ├── install-glpi-cli.yml
 │   └── glpi-ssl.yml
 │
-├── docs/
-│   ├── 01_install_ansible.md
-│   ├── 02_config_mariadb.md
-│   ├── 03_deploiement_glpi_cli.md
-│   └── 04_certificat_ssl.md
-│
-├── captures/
-│   └── schema-ansible-glpi.png
-├── .gitignore
-└── README.md
+├── README.md
+└── .gitignore
+
 ```
 ---
 
